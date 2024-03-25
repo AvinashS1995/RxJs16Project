@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AsyncAwaitComponent } from './async-await/async-await.component';
 import { FromEventComponent } from './observable/from-event/from-event.component';
+import { IntervalComponent } from './observable/interval/interval.component';
 import { ListComponent } from './observable/list/list.component';
 import { ObservableComponent } from './observable/observable.component';
 import { PromiseComponent } from './promise/promise.component';
@@ -13,6 +14,7 @@ const routes: Routes = [
     
     {path : '', component : ListComponent},
     {path : 'fromEvent', component : FromEventComponent},
+    {path : 'interval', component : IntervalComponent},
   ]},
   {path : '**', redirectTo : 'promise'}
 ];
