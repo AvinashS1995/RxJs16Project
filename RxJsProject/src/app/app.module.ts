@@ -22,6 +22,8 @@ import { RetryComponent } from './observable/retry/retry.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DebouncetimeComponent } from './observable/debouncetime/debouncetime.component';
 import { LoadingBarModule } from '@ngx-loading-bar/core';
+import { ConcatComponent } from './observable/concat/concat.component';
+import { MergeComponent } from './observable/merge/merge.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { LoadingBarModule } from '@ngx-loading-bar/core';
     TapComponent,
     TakeComponent,
     RetryComponent,
-    DebouncetimeComponent
+    DebouncetimeComponent,
+    ConcatComponent,
+    MergeComponent
   ],
   imports: [
     BrowserModule,

@@ -16,6 +16,8 @@ import { TapComponent } from './observable/tap/tap.component';
 import { TakeComponent } from './observable/take/take.component';
 import { RetryComponent } from './observable/retry/retry.component';
 import { DebouncetimeComponent } from './observable/debouncetime/debouncetime.component';
+import { ConcatComponent } from './observable/concat/concat.component';
+import { MergeComponent } from './observable/merge/merge.component';
 
 const routes: Routes = [
   {path : 'promise', component : PromiseComponent},
@@ -35,6 +37,8 @@ const routes: Routes = [
     {path : 'take', component : TakeComponent},
     {path : 'retry', component : RetryComponent},
     {path : 'debouncetime', component : DebouncetimeComponent},
+    {path : 'concat', component : ConcatComponent},
+    {path : 'merge', component : MergeComponent},
 
   ]},
   {path : '**', redirectTo : 'promise'}
