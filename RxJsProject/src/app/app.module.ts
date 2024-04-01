@@ -24,6 +24,8 @@ import { DebouncetimeComponent } from './observable/debouncetime/debouncetime.co
 import { LoadingBarModule } from '@ngx-loading-bar/core';
 import { ConcatComponent } from './observable/concat/concat.component';
 import { MergeComponent } from './observable/merge/merge.component';
+import { MergemapComponent } from './observable/mergemap/mergemap.component';
+import { ConcatmapComponent } from './observable/concatmap/concatmap.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { MergeComponent } from './observable/merge/merge.component';
     RetryComponent,
     DebouncetimeComponent,
     ConcatComponent,
-    MergeComponent
+    MergeComponent,
+    MergemapComponent,
+    ConcatmapComponent
   ],
   imports: [
     BrowserModule,

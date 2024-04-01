@@ -18,6 +18,8 @@ import { RetryComponent } from './observable/retry/retry.component';
 import { DebouncetimeComponent } from './observable/debouncetime/debouncetime.component';
 import { ConcatComponent } from './observable/concat/concat.component';
 import { MergeComponent } from './observable/merge/merge.component';
+import { MergemapComponent } from './observable/mergemap/mergemap.component';
+import { ConcatmapComponent } from './observable/concatmap/concatmap.component';
 
 const routes: Routes = [
   {path : 'promise', component : PromiseComponent},
@@ -39,6 +41,8 @@ const routes: Routes = [
     {path : 'debouncetime', component : DebouncetimeComponent},
     {path : 'concat', component : ConcatComponent},
     {path : 'merge', component : MergeComponent},
+    {path : 'mergemap', component : MergemapComponent},
+    {path : 'concatMap', component : ConcatmapComponent},
 
   ]},
   {path : '**', redirectTo : 'promise'}
